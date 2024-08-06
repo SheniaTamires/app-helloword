@@ -47,7 +47,7 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     - name: Get AKS credentials
-      run: az aks get-credentials --resource-group <RESOURCE_GROUP_NAME> --name <AKS_CLUSTER_NAME>
+      run: az aks get-credentials --resource-group ResourceGroup --name DesafioAKSCluster
 
     - name: Apply Kubernetes manifests
       run: |
