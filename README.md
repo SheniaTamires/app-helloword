@@ -1,2 +1,2 @@
-# app-helloword
-Repositório da aplicação Hello Word.
+# app-helloworld
+Repositório da aplicação Hello World.
