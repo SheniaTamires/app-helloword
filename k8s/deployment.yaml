@@ -18,4 +18,4 @@ spec:
       - name: hello-world
         image: tamires182/hello-world-app:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 30954
