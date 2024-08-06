@@ -19,4 +19,3 @@ spec:
         image: tamires182/hello-world-app:latest
         ports:
         - containerPort: 80
-        - targetPort: 30954
