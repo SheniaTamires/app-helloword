@@ -22,7 +22,7 @@ jobs:
       run: pip install -r app/requirements.txt
 
     - name: Build Docker image
-      run: docker build -t <DOCKER_HUB_USERNAME>/hello-world-app:latest ./app
+      run: docker build -t tamires182/hello-world-app:latest ./app
 
     - name: Log in to Docker Hub
       run: echo ${{ secrets.DOCKER_HUB_PASSWORD }} | docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} --password-stdin
