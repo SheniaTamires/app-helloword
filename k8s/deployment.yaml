@@ -19,4 +19,4 @@ spec:
         image: tamires182/hello-world-app:latest
         ports:
         - containerPort: 80
-        - name: http-web-svc
+          name: http-web-svc
